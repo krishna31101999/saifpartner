@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall" : "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -46,7 +47,19 @@
     "typescript": "~3.5.3"
   },
   "engines": {
-    "node" : "~13.3.0",
-    "npm" : "~6.13.1"
-  }
+    "node": "~13.3.0",
+    "npm": "~6.13.1"
+  },
+  "description": "",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishna31101999/saifpartner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishna31101999/saifpartner/issues"
+  },
+  "homepage": "https://github.com/krishna31101999/saifpartner#readme"
 }
